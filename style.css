@@ -9,8 +9,8 @@
 main{
     height: 100vh;
     width: 100vw;
-    background-image: url("concierto.jpg");
-    //background-image: url("https://images4.alphacoders.com/457/4574.jpg"); FOR ONLINE IMAGE
+    //background-image: url("concierto.jpg");
+    background-image: url("https://images4.alphacoders.com/457/4574.jpg"); FOR ONLINE IMAGE
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
