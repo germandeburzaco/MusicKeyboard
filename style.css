@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("concierto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.teclado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+    height: 100vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tecla{
+   /* color: black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px 20px;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: white;
+    border-radius: 2px;*/
+
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.8rem;
+    padding: 1rem 0.5rem;
+    width: 80px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.5rem black;
+}
+
+.presionada{
+    transform: scale(1.4);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 0.8rem;
+    width: 100%;  
+    padding-bottom: 10px;  
+}
+
+.pie{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
